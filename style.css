@@ -1,0 +1,149 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/*max-width: 1000px;*/
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+	font-size: 18px;
+	background: #C0C0C0;
+}
+
+/*------button-------*/
+
+.button{
+	border: 1px solid black;
+	display: inline-block;
+	border-radius: 5px;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #3373FF;
+}
+
+/*-----Header------*/
+
+li{
+	display: inline-block;
+	font-size: .85em;
+}
+
+li a,
+.logo a{
+	text-decoration: none;
+	padding: 2px 8px;
+	text-align: center;
+	display: block;
+}
+
+ul{
+	padding-left: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.logo{
+	font-size: 0.95em;
+	
+}
+
+.nav-bar{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+
+/*-----Hero-----*/
+.hero{
+	height: 100vh;
+	margin: auto;
+	text-align: left;
+	width: 75%;
+}
+
+.hero-text{
+	position: relative;
+	top: 25%;
+}
+
+h1{
+	font-size: 2em;
+}
+
+.highlight{
+	color: #3373FF;
+}
+
+header{
+	margin: auto;
+}
+
+nav{
+	/*border: 1px solid #a2a2a2;*/
+	background-color: #D0D0D0;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.50);
+	border-radius: 5px;
+	width: 100%;
+	text-align: center;
+}
+
+.row{
+	width: 80%;
+	text-align: center;
+}
+
+main{
+	/*max-width: 1000px;*/
+}
+}
+
+#about{
+	text-align: left;
+}
+
+/*------Projects--------*/
+
+.proj{
+	height: 50vh;
+	margin: auto;
+	text-align: left;
+	width: 100%;
+	background: #DCDCDC;
+}
+
+#projects{
+	width: 75%;
+	margin: auto;
+}
+
+/*------Footer-----*/
+footer{
+	width: 75%;
+	margin: auto;
+}
+
+
+/*----Media Queries----*/
+
+/*@media (min-width: 769px) {
+	
+	.nav-bar {
+		display: flex;
+	}
+	.nav-bar {
+		flex-direction: column;
+		align-items: center;
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+	}
+
+}
+
+@media (min-width: 1025px) {
+	.nav-bar {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+}*/
